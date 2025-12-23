@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.rangeColor {
+  accent-color: rgb(54, 188, 159);
+}
+
+.rangeColor {
+  background-color: rgb(54, 188, 159);
+}
+
+.textColor {
+  color: rgb(54, 188, 159);
+}
+
+.borderNext {
+  border: 2px rgb(54, 188, 159) solid;
+}
+
+.inputBorder {
+  border: 1px solid #5e5c5c;
+  border-radius: 4px;
+}
+
+.borderb {
+  border: solid #5e5c5c;
+}
+
+.dMB {
+  background-color: rgb(35, 38, 39);
+}
+
+.descriptionColor {
+  color: rgb(19, 85, 111);
+}
+
+.tick {
+  color: rgb(247, 89, 80);
+  background: #fff;
+  border-color: rgb(247, 89, 80);
+}

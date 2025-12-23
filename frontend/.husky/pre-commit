@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+# Run lint-staged on commit (prettier will format staged files).
+npx --no-install lint-staged

@@ -1,0 +1,15 @@
+﻿src/__tests__/CardStep.test.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/__tests__/HomeForm.integration.test.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/__tests__/RangeField.test.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/__tests__/StatsFeatures.test.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/Home.tsx(8,17): error TS6133: 'setMode' is declared but its value is never read.
+src/components/HomeForm.tsx(76,84): error TS2322: Type 'Dispatch<SetStateAction<number>>' is not assignable to type '(value: string) => void'.
+  Types of parameters 'value' and 'value' are incompatible.
+    Type 'string' is not assignable to type 'SetStateAction<number>'.
+src/components/HomeForm.tsx(78,75): error TS2322: Type 'Dispatch<SetStateAction<number>>' is not assignable to type '(value: string) => void'.
+  Types of parameters 'value' and 'value' are incompatible.
+    Type 'string' is not assignable to type 'SetStateAction<number>'.
+src/components/HomeForm.tsx(80,105): error TS2365: Operator '<' cannot be applied to types 'string' and 'number'.
+src/components/HomeForm.tsx(96,130): error TS2365: Operator '<' cannot be applied to types 'string' and 'number'.
+src/components/HomeForm.tsx(98,101): error TS2365: Operator '<' cannot be applied to types 'string' and 'number'.
+src/components/Sales.tsx(16,1): error TS6133: 'DiscountTimer' is declared but its value is never read.
